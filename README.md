@@ -54,8 +54,8 @@ By sorting subnet requests in non-increasing order ($S_0 \ge S_1 \ge S_2 \ge \do
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/vlsm-subnet-calculator.git
-cd vlsm-subnet-calculator
+git clone https://github.com/Xxv1p3r/vlsm-subnetter.git
+cd vlsm-subnetter
 
 # Make the script executable (Linux / macOS)
 chmod +x vlsm_calculator.py
@@ -200,7 +200,7 @@ Address Space Overflow Error:
 ## Project Structure
 
 ```text
-vlsm-subnet-calculator/
+vlsm-subnetter/
 ├── .gitignore             # Standard Python ignore rules
 ├── README.md              # Project documentation and specifications
 └── vlsm_calculator.py     # Main executable engine and CLI interface
